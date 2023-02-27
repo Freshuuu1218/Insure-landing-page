@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+.vanish{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    padding: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav{
+    position: absolute;
+    top: 10%;
+    left: 0;
+    height: 90vh;
+    width: 100vw;
+    background-color: hsl(266, 8%, 17%);
+    z-index: 1000;
+}
+nav ul{
+    margin-top: 2.5em;
+    text-align: center;
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-weight: 400;
+    font-size: 1.25em;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+}
+nav ul li{
+    margin: 2em 0;
+}
+nav ul li:last-child{
+    border: 2px solid white;
+    padding: .5em;
+    width: 90%;
+    margin: 2em auto;
+    list-style: none;
+}
+#nav1{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+}
+#intro .content{
+    position: relative;
+    display: flex;
+    flex-direction: column-reverse;
+    background-color: hsl(256, 26%, 20%);
+    color: white;
+    justify-content: center;
+    text-align: center;
+}
+#intro .content h1{
+    font-family: 'DM Serif Display', sans-serif;
+    font-size: 3em;
+    font-weight: 400;
+    line-height: 1em;
+    margin-bottom: .4em;
+}
+#intro .content p{
+    font-family: 'Karla';
+    font-weight: 400;
+    font-size: 1em;
+    letter-spacing: .03em;
+    line-height: 1.5em;
+    margin-bottom: 2.5em;
+}
+#intro .content button,
+#findOut button{
+    color: white;
+    background-color: transparent;
+    border: 2px solid white;
+    padding: .75em 2em;
+    font-size: .9em;
+    letter-spacing: .05em;
+    font-family: 'Karla',sans-serif;
+}
+#intro .content .text{
+    padding: 5.5em 1em;
+    z-index: 200;
+}
+#pattern1{
+    position: absolute;
+    top: 66.5%;
+    left: 0;
+    z-index: 100;
+}
+#pattern2{
+    position: absolute;
+    bottom: -50%;
+    right: 0;
+    z-index: 100;
+}
+#intro2{
+    width: 40%;
+    height: 1px;
+    background-color: hsl(256, 26%, 70%);
+    margin: 8em auto 3em;
+}
+#different{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#different h2{
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    font-size: 3em;
+    color: hsl(0, 0%, 15%);
+    margin-bottom: 1.5em;
+}
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3.5em;
+}
+.feature img{
+    margin-bottom: 2em;
+}
+.feature h3{
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    font-size: 1.75em;
+    margin-bottom: .75em;
+}
+.feature p{
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    color: hsl(0, 0%, 25%);
+    letter-spacing: .02em;
+    line-height: 1.5em;
+    padding: 0 5%;
+}
+#findOut{
+    background-color: hsl(256, 26%, 20%);
+    position: relative;
+    margin: 5em 1em;
+    text-align: center;
+    padding: 4.5em 2em;
+    overflow: hidden;
+}
+#findOut h2{
+    position: relative;
+    color: white;
+    font-size: 2.5em;
+    font-family: 'DM Serif Display', sans-serif;
+    font-weight: 400;
+    line-height: 1em;
+    z-index: 200;
+    margin-bottom: 1em;
+}
+#findOut img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 100;
+}
+
+footer{
+    margin-top: 9em;
+    position: relative;
+    background-color: hsl(0, 0%, 98%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#pattern3{
+    position: absolute;
+    margin-top: 0;
+    z-index: 100;
+}
+footer img{
+    position: relative;
+    z-index: 200;
+    margin-bottom: 2em;
+    margin-top: 5.5em;
+}
+footer .top{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer i{
+    z-index: 200;
+    position: relative;
+    font-size: 1.6em;
+    color: hsl(0, 0%, 45%);
+    margin: 0 .25em;
+}
+footer ul{
+    list-style: none;
+    text-align: center;
+    font-family: 'Karla', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: .9em;
+    letter-spacing: .04em;
+}
+footer ul li{
+    color: hsl(0, 0%, 55%);
+}
+footer ul li ul{
+    margin-top: 2em;
+    margin-bottom: 3em;
+}
+footer ul li ul li{
+    color: hsl(0, 0%, 15%);
+    margin-bottom: 1.1em;
+}
+#footer1{
+    height: 2px;
+    width: 90%;
+    margin: 2em auto;
+    background-color: hsl(0, 0%, 93%);
+}
+
+
