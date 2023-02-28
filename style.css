@@ -176,7 +176,7 @@ footer{
     flex-direction: column;
     align-items: center;
 }
-#pattern3{
+#pattern4{
     position: absolute;
     margin-top: 0;
     z-index: 100;
@@ -226,4 +226,205 @@ footer ul li ul li{
     background-color: hsl(0, 0%, 93%);
 }
 
+@media(min-width: 768px){
+    header {
+        padding: 1.25em 10em;
+    }
+    nav {
+        display: flex;
+        position: relative;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: auto;
+        background-color: transparent;
+        z-index: 100;
+    }
+    nav ul {
+        list-style: none;
+        display: flex;
+        margin-top: 0;
+        color: hsl(0, 0%, 45%);
+        font-size: 1em;
+        align-items: center;
+        font-weight: 700;
+    }
+    nav ul li {
+        margin: 0 1em;
+    }
+    nav ul li:last-child {
+        color: hsl(0, 0%, 15%);
+        border: 2px solid hsl(0, 0%, 15%);
+        padding: .5em 1.5em;
+        width: auto;
+        margin: 0;
+        margin-left: 1em;
+    }
+    #nav1 {
+        display: none;
+    }
+    #intro {
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 20em;
+    }
+    #intro1{
+        position: absolute;
+        width: 11%;
+        top: 23.5%;
+        left: 10em;
+        height: 1px;
+        background-color: white;
+        z-index: 1000;
+    }
+    #intro .content {
+        flex-direction: row;
+        justify-content: flex-start;
+        text-align: left;
+        padding-left: 9em;
+        padding-top: 5em;
+    }
+    #intro .content h1 {
+        font-size: 4.5em;
+    }
+    #intro .content p {
+        font-size: .9em;
+    }
+
+    #intro .content button,
+    #findOut button {
+        color: white;
+        background-color: transparent;
+        border: 2px solid white;
+        padding: .75em 1.75em;
+        font-size: .9em;
+        letter-spacing: .05em;
+        font-family: 'Karla', sans-serif;
+    }
+    #intro .content button{
+        margin-bottom: 2em;
+    }
+    #intro .content .text {
+        padding: 5.5em 1em;
+        z-index: 200;
+        width: 42.5%;
+    }
+    #intro .content .image{
+        position: absolute;
+        top: 19%;
+        left: 50%;
+    }
+    #pattern1 {
+        position: absolute;
+        top: 64%;
+        left: 0;
+        z-index: 100;
+    }
+    #pattern2 {
+        position: absolute;
+        bottom: 16%;
+        right: 0;
+        z-index: 100;
+    }
+    #intro2 {
+        position: absolute;
+        width: 11%;
+        top: 123%;
+        left: 10em;   
+        background-color: hsl(256, 26%, 70%);
+        margin: 0;
+    }
+    #different {
+        padding: 1.85em 10em;
+        align-items: flex-start;
+    }
+
+    #different h2 {
+        font-size: 4.5em;
+        color: hsl(0, 0%, 15%);
+        margin-bottom: 1.15em;
+    }
+    .features {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 2em;
+    }
+    .feature {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 3.5em;
+    }    
+    .feature p {
+        text-align: left;
+        color: hsl(0, 0%, 45%);
+        padding: 0;
+        font-size: .96em;
+    }
+    #findOut {
+        margin: 5em 10em;
+        text-align: left;
+        padding: 4.5em 4em;
+        display: flex;
+        align-items: center;
+    }
+    #findOut h2 {
+        width: 46%;
+        font-size: 3.25em;
+        margin-bottom: 0;
+    }
+    #findOut button{
+        margin-right: 4em;
+        margin-left: auto;
+        z-index: 200;
+    }
+    footer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    #pattern4 {
+        position: absolute;
+        margin-top: 0;
+        left: 0;
+        z-index: 100;
+    }
+    footer img {
+        position: relative;
+        z-index: 200;
+        margin-bottom: 2em;
+        margin-top: 4.15em;
+    }
+    footer .top {
+        padding: 0 10em;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+    }
+    footer .social{
+        padding-top: 2em;
+    }
+    footer .bottom{
+        width: 100%;
+        padding: 0 10em;
+        z-index: 200;
+    }
+    footer ul {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        text-align: left;
+    }
+    footer ul li ul {
+        display: flex;
+        flex-direction: column;
+    }
+    #footer1 {
+        height: 1px;
+        width: calc(100% - 20em);
+        margin: 0.25em auto 3em;
+        background-color: hsl(0, 0%, 83%);
+    }
+}
 

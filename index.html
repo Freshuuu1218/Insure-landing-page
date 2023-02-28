@@ -45,7 +45,10 @@
           <button>VIEW PLANS</button>
         </div>
         <div class="image">
-          <img src="./images/image-intro-mobile.jpg" alt="people holding hands">
+          <picture>
+            <source srcset="./images/image-intro-desktop.jpg" media="(min-width:768px)">
+            <img src="./images/image-intro-mobile.jpg" alt="people holding hands">
+          </picture>
         </div>
       </div>
       <span class="line" id="intro2"></span>
@@ -79,12 +82,12 @@
     <section id="findOut">
       <h2>Find out more about how we work</h2>
       <button>HOW WE WORK</button>
-      <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="pattern">
+      <img src="./images/bg-pattern-how-we-work-mobile.svg" alt="pattern" id="pattern3">
     </section>
   </main>
 
   <footer>
-    <img src="./images/bg-pattern-footer-mobile.svg" alt="pattern" id="pattern3">
+    <img src="./images/bg-pattern-footer-mobile.svg" alt="pattern" id="pattern4">
     <div class="top">
       <img src="./images/logo.svg" alt="logo">
       <div class="social">
